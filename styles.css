@@ -118,6 +118,6 @@ span {
 @media screen and (max-width: 768px) {
     .container {
         width: 100% !important;
-        padding-inline: 10px;
+        padding-inline: 10px !important;
     }
 }
