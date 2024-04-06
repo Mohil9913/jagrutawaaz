@@ -114,3 +114,10 @@ span {
 ::placeholder {
     color: var(--background);
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100% !important;
+        padding-inline: 10px;
+    }
+}
