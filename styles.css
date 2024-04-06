@@ -52,6 +52,7 @@ h1 {
     font-weight: 700;
     font-size: 2rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
 main {
@@ -121,7 +122,15 @@ span {
         margin: 0 !important;
     }
 
+    h1 {
+        font-size: 1.5rem;
+    }
+
     form {
         border-radius: 0 !important;
+    }
+
+    input {
+        font-size: .9rem;
     }
 }
