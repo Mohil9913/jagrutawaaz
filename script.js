@@ -20,7 +20,10 @@ const calculateAukat = () => {
     const personalPercentage = personalCut / 100;
     
     let total = netAmount - (netAmount * platformPercentage); 
-    total = (total * personalPercentage); 
+    total = total * personalPercentage; 
+
+    // Round to two decimal places
+    total = total.toFixed(2);
 
     resultText.style.display = "block";
     result.textContent = `₹${total}`;
