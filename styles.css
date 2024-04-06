@@ -68,7 +68,7 @@ form {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    width: 80%;
+    width: 100%;
     padding: 2rem;
     background: var(--primary);
     box-shadow: 11px 11px 24px 0px rgba(0,0,0,0.1);
