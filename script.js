@@ -47,6 +47,7 @@ const notFinishedYet = () => {
     personalCutInput.value = "";
 
     arrayText.style.display = "block";
+    resultText.style.display = "none";
     array.push(total);
     total = 0;
 
