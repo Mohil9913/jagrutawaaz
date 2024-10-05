@@ -63,6 +63,6 @@ const notFinishedYet = () => {
     arrayContainer.appendChild(list);
 
     const totalElement = document.createElement("span");
-    totalElement.textContent = `Total Aukat: ₹${total.toFixed(2)}`;
+    totalElement.textContent = `Total: ₹${total.toFixed(2)}`;
     arrayContainer.appendChild(totalElement);
 }
